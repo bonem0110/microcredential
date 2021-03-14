@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+
+* {
+    background-color: #a8dadc;
+}
+h1, h2 {
+    color: #1D3557;
+    font-family: 'Ultra';
+}
+main {
+    display: block;
+    width: 50%;
+    text-align: left;
+    margin: 150px auto 150px auto;
+}
+main p {
+    font-family: sans-serif;
+    font-size: 16px;   
+    margin-block-end: 36px;
+    color: #457B9D;
+    line-height: 1.5;
+}
+hr {
+    color: grey;
+    margin: 100px auto 100px auto;
+}
+.about-me p {
+    font-size: 1.8vw;
+}
+
+/* Header & Navigation Bar*/ 
+header p {
+    font-size: 2vw;
+    width: 11.7em;
+    position: fixed;
+    color: #1D3557;
+    background-color: transparent;
+    font-family: 'Ultra';
+}
+header p#contact-email {
+    transform: rotate(90deg);
+    bottom: 9em;
+    right: -3.0em;
+    text-align: right;
+    text-decoration: underline;
+}
+header p#full-name {
+    top: 0em;
+    left: 0em;
+    text-align: right;
+    font-family: 'Ultra', sans-serif;
+}
+header p#full-name a:visited, header p#full-name a:link, header p#contact-email a:visited, header p#contact-email a:link, nav a:link {
+    color: #1D3557;
+    text-decoration: none;
+}
+header p#job-title {
+    transform: rotate(-90deg);
+    top: 9em;
+    left: -3.0em;
+    text-align: right;
+}
+h1 {
+    font-size: 5vw;
+    text-align: center;
+    text-decoration: none;
+}
+header nav {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2vw;
+}
+nav {
+    text-decoration: none;
+    color: #457b9d;
+}
+header nav ul {
+    display: block;
+    position: absolute;
+    right: 50px;
+}
+header nav ul li {
+    display: inline-block;
+    margin-left: 1em;
+    list-style-type: none;
+}
+header nav ul li a {
+    width: auto;
+}
+header a:visited, header a:link {
+    color: #457b9d;
+    text-decoration: none;
+}
+main a:visited, main a:link {
+    color: #1d3557;
+    text-decoration: underline;
+}
+
+/*Project Index Stylings*/
+.posts-list-item {
+    line-height: .5;
+    font-size: 1.5vw;
+}
+.date {
+    font-size: 1vw;
+    color: #457b9d;
+}
+.posts-list-item h2 a:visited {
+    color: #1d3557;
+}
+.posts-list-item p{
+    font-size: 2vw;
+}
+.posts-list hr {
+    margin: 0 0;
+}
+
+/* Table Stylings */
+iframe {
+    border: hidden;
+}
