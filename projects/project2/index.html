@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="icon" type="image/jpg" href="favicon.jpg">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../style.css">
+  </head>
+  <body>
+    <header>    
+      <div class="personal-info"></div>
+          <p class="rainbow-text-simple" id="contact-email">
+              <a href="mailto:josue.jacques-caidor33@bcmail.cuny.edu">Email me!</a>
+          </p>
+          <p class="rainbow-text-static" id="job-title">
+              Web Developer
+          </p>
+          <p id="full-name">
+              <a href="../index.html">Josue J. <br> Caidor</a>
+           </p>
+      </div>
+      <nav>
+          <ul>
+              <li>
+                  <a href="../../index.html">About</a>
+              </li>
+             
+              <li>
+                <a href="../../labs/index.html">Labs</a>
+              </li>
+              <li>
+                <a href="">Projects</a>
+              </li>
+          </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Bio-Sequencing</h1>
+      <hr>
+      <iframe title="" style="width: 100%; height: 525px;" src="https://biocalculators.herokuapp.com"></iframe>
+
+      <table class="bio-app">
+
+          <caption>Describes each method in the Bio-sequencing app.</caption>
+          
+          <tr>
+              <th>Method</th>
+              <th>Description</th>
+          </tr>
+          <tr>
+              <td>Count nucleotides</td>
+              <td>Calculates the total amount of each A, T, C, and G nucleotide in a given DNA sequence.</td>
+          </tr>
+          <tr>
+              <td>GC / AT content</td>
+              <td>Calculates the percentage G & C or A & T nucleotides in a DNA given sequence.</td>
+          </tr>
+          <tr>
+              <td>Transcribe</td>
+              <td>Converts a given DNA sequence into an RNA sequence.</td>
+          </tr>
+          <tr>
+              <td>Reverse-transcribe</td>
+              <td>Converts a given RNA sequence into an DNA sequence.</td>
+          </tr>
+          <tr>
+              <td>cDNA</td>
+              <td>Converts a given RNA sequence into a comlementary DNA strand.</td>
+          </tr>
+          <tr>
+              <td>Translate</td>
+              <td>Converts a given RNA sequence into a protein.</td>
+          </tr>
+          <tr>
+              <td>Count amino acids</td>
+              <td>Calculates the total amount of each amino acid in a protein sequence. Possible amino acids in a sequence are:<br>R, H, K, D, E, S, T, N, Q, C, U, G, P, A, V, I, L, M, F, Y, and W.</td>
+          </tr>
+          <tr>
+              <td>Protein mass</td>
+              <td>Calculates the mass of a protein sequence using the following formula:<br><span style="color: red;">total mass of protein in Da - (18.0153 * (amount of proteins - 1)).</span></td>
+          </tr>
+          
+
+      </table>
+        <hr>
+    </main>
+    
+
+  </body>
+</html>
